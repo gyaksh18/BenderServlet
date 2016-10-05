@@ -9,8 +9,8 @@
 </head>
     <body>
         <h1> ${answer}</h1>
-        <form action="index.jsp">
-            <input type="submit" value="Заново" />
+        <form action=index.jsp method="POST">
+            <button type="submit">Заново</button>
         </form>
     </body>
 </html>
