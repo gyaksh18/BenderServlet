@@ -9,7 +9,7 @@
 </head>
     <body>
         <h1> ${answer}</h1>
-        <form action="/main">
+        <form action="index.jsp">
             <input type="submit" value="Заново" />
         </form>
     </body>

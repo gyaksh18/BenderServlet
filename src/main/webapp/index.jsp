@@ -8,10 +8,10 @@
     <title>MyFirstServlet</title>
 </head>
     <body>
-        <h1>Сервлет для вычисления года рождения</h1>
+        <h1>Я великий робот Бендер! Я могу предсказывать прошлое!</h1>
         <form action="servlet" method="POST">
             <div>
-                <p>Возраст : </p>
+                <h1>Ответь, сколько тебе лет, человек!?</h1>
                 <input type="text" name="age" value="" placeholder="Введите ваш возраст">
             </div>
             <input type="submit" value="Ответить" />

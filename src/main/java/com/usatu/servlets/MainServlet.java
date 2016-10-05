@@ -6,6 +6,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * Created as methodical material for ACS department.
@@ -22,7 +24,9 @@ public class MainServlet extends HttpServlet {
         String reqAttribute = req.getParameter("age");
         try {
             int age = Integer.parseInt(reqAttribute);
-            int currentYear = 2016;
+            Calendar calendar = Calendar.getInstance();
+            calendar.setTime(new Date());
+            int currentYear = calendar.get(Calendar.YEAR);
             String answer;
             if (age >= currentYear){
                 answer = (age - currentYear + 1) + " год до н.э.";
