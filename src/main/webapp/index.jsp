@@ -1,7 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  Created as methodical material for ACS department.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

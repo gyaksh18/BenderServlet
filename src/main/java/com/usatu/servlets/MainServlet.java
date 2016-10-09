@@ -9,10 +9,6 @@ import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
 
-/**
- * Created as methodical material for ACS department.
- */
-
 public class MainServlet extends HttpServlet {
     /**
      * Основной метод класса HttpServlet, вызывается сервером для обработки GET запросов.
